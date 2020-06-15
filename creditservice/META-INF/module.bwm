@@ -21,6 +21,7 @@
   <sca:property xmi:id="_Kc1p4KssEeq1X9g1fXvdRg" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
   <sca:property xmi:id="_dMhC0KsxEeq1X9g1fXvdRg" name="CreditHost" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_dRY7wKsxEeq1X9g1fXvdRg" name="CreditPort" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_z3CPcK8BEeq1KcDjnB13NQ" name="postgres" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:component xmi:id="_KZDWEKssEeq1X9g1fXvdRg" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
     <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_KZDWEassEeq1X9g1fXvdRg" processName="creditservice.p_CreditService"/>
     <sca:service xmi:id="_7bmp4KssEeq1X9g1fXvdRg" name="credit">

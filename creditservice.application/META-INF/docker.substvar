@@ -75,12 +75,13 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//creditservice//CreditHost</name>
-			<value>localhost</value>
+			<value>0.0.0.0</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<isOverride>false</isOverride>
+			<isOverride>true</isOverride>
 			<useLookupValue>false</useLookupValue>
+			<lookupValue>0.0.0.0</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//creditservice//postgres</name>
